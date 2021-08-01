@@ -1,4 +1,4 @@
-class Menu
+class Takeaway
   attr_reader :menu
 
   def initialize
@@ -8,7 +8,7 @@ class Menu
       }]
   end
 
-  def show_options
+  def show_menu
     @menu
   end
 
